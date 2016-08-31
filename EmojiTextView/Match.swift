@@ -18,13 +18,11 @@ class Match {
   }
 
   let string: String
-  let emoji: String
-  let attributedString: NSAttributedString
+  let emoji: NSAttributedString
   var transitionState = TransitionState.notStarted
 
-  init(string: String, emoji: String, attributedString: NSAttributedString? = nil) {
+  init(string: String, emoji: NSAttributedString) {
     self.string = string
     self.emoji = emoji
-    self.attributedString = attributedString ?? NSAttributedString(string: emoji)
   }
 }

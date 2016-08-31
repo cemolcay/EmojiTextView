@@ -33,7 +33,6 @@
 		A6E5F28A1D3AF15E00879E2A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A6E5F2881D3AF15E00879E2A /* LaunchScreen.storyboard */; };
 		A6E5F2901D3BE89900879E2A /* EmojiController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E5F28F1D3BE89900879E2A /* EmojiController.swift */; };
 		A6E5F2911D3BE90900879E2A /* EmojiController.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6E5F28F1D3BE89900879E2A /* EmojiController.swift */; };
-		B22FE5441D77A39B0080FE5E /* TextToImageMapping.swift in Sources */ = {isa = PBXBuildFile; fileRef = B22FE5431D77A39B0080FE5E /* TextToImageMapping.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -57,7 +56,6 @@
 		A6E5F2891D3AF15E00879E2A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A6E5F28B1D3AF15E00879E2A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		A6E5F28F1D3BE89900879E2A /* EmojiController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = EmojiController.swift; sourceTree = "<group>"; };
-		B22FE5431D77A39B0080FE5E /* TextToImageMapping.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TextToImageMapping.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -127,7 +125,6 @@
 				A69698BC1D4019B10096251D /* Match.swift */,
 				A6199A941D3E61E10067BC74 /* TextHighlighting.swift */,
 				A6A628EF1D3EC7CC00D9FD19 /* TextToEmojiMapping.swift */,
-				B22FE5431D77A39B0080FE5E /* TextToImageMapping.swift */,
 			);
 			path = EmojiTextView;
 			sourceTree = "<group>";
@@ -261,7 +258,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				B22FE5441D77A39B0080FE5E /* TextToImageMapping.swift in Sources */,
 				A69698E81D40DE950096251D /* NSRange+Hashable.swift in Sources */,
 				A6199A951D3E61E10067BC74 /* TextHighlighting.swift in Sources */,
 				A6E5F2901D3BE89900879E2A /* EmojiController.swift in Sources */,

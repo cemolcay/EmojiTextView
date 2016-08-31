@@ -35,7 +35,7 @@ final class AttributedStringAnnotator {
       if let substring = substring,
         let mapped = self.mapping[(substring as NSString).lowercased]?.first {
 
-        let match = Match(string: substring, emoji: mapped.string, attributedString: mapped)
+        let match = Match(string: substring, emoji: mapped)
         rangeToMatchMap[substringRange] = match
 
         let existingAttribute = mutable.attribute(self.annotationKey, at: substringRange.location, effectiveRange: nil)

@@ -107,7 +107,7 @@ final public class EmojiController: NSObject {
 
   fileprivate func didMatch(match: Match, withText inRange: NSRange) {
     let mutable = textView.attributedText.mutableCopy() as! NSMutableAttributedString
-    mutable.replaceCharacters(in: inRange, with: match.emoji as String)
+    mutable.replaceCharacters(in: inRange, with: match.emoji)
     textView.attributedText = mutable.copy() as! NSAttributedString
 
     updateAfterTextChange()
